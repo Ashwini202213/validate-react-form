@@ -1,0 +1,91 @@
+
+body{
+    background-image: url('./form-bg.jpg');
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    /* border: 1px solid black; */
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:rgb(254,225,221); /* Adds a translucent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+p{
+    text-align: center;
+}
+
+.form-heading{
+    padding: 10px;
+    text-align: center;
+}
+
+.input-field{
+    /* height: 30px;
+    width: 100%; */
+    margin: 10px 0;
+    display: flex;
+    justify-content:center;
+}
+
+label{
+    margin-right: 10px;
+    width: 150px;
+
+}
+
+
+input {
+    width: 100%; /* Allow input to take up remaining space */
+    padding: 10px; /* Add padding to input for better spacing */
+    border: none;
+    border-radius: 10px;
+}
+
+.submit-button {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+   border-radius: 10px;
+   font-weight:500;
+   font-size: 16px;
+    color: black;
+    /* background-color: #151415; */
+    border: none;
+    cursor: pointer;
+ 
+}
+
+button:hover {
+    background-color: #fa9314;
+    color: #070707;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #070707;
+
+}
